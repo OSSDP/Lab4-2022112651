@@ -43,7 +43,7 @@ class Solution {
 
         // 对于索引 i，除 nums[i] 之外其余各元素的乘积就是左侧所有元素的乘积乘以右侧所有元素的乘积
         for (int i = 0; i < length; i++) {
-            answer[i] = L[i] * R[i] + 1;
+            answer[i] = L[i] * R[i];
         }
 
         return answer;
